@@ -1,0 +1,24 @@
+{
+  "name": "lib-teste",
+  "version": "1.0.0",
+  "description": "lib de testes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Pedro Tresmondi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/preset-env": "^7.18.2",
+    "babel-install": "2.1.0",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.1",
+    "prettier": "2.7.0"
+  },
+  "dependencies": {
+    "babel-jest": "^28.1.1"
+  }
+}
